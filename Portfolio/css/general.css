@@ -1,0 +1,51 @@
+/* --- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* **************** */
+/* Helper classes */
+/* **************** */
+
+.container {
+  max-width: 130rem;
+  margin: 0px auto;
+  padding: 0 3.2rem;
+}
+
+.justify-start {
+  justify-content: flex-start !important;
+}
+
+.margin-top-sm {
+  margin-top: 3.2rem !important;
+}
+
+.display-none {
+  transform: translate(100%, -100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,151 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+*/
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+@media (max-width: 69em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .menu-wrap {
+    width: 52rem;
+    height: 52rem;
+  }
+}
+
+@media (max-width: 58em) {
+  html {
+    font-size: 50%;
+  }
+
+  .aboutme {
+    padding: 9.6rem 0 4.8rem 0;
+  }
+
+  .aboutwrapper2 {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .about-text-box-2 {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+  }
+
+  .img-box {
+    align-self: end;
+  }
+
+  .heading {
+    font-size: 2.8rem;
+    line-height: 1.6;
+  }
+
+  .icon {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+/* 685px width */
+@media (max-width: 43em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutme {
+    padding: 6.4rem 0 4.8rem 0;
+  }
+
+  .about-left {
+    text-align: center;
+    grid-row: 2;
+  }
+
+  .about-left img {
+    width: 80%;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutwrapper2 {
+    grid-template-columns: 1fr;
+  }
+
+  .img-box {
+    display: none;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolio-link:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .portfolio-link:nth-child(3) img {
+    width: 50%;
+  }
+
+  .btn-container {
+    margin-top: 4.8rem;
+  }
+
+  .about-left {
+    width: 100%;
+    justify-self: center;
+    grid-row: 1;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-img-box {
+    display: none;
+  }
+
+  .about-text-box p {
+    line-height: 1.5;
+  }
+
+  .heading {
+    margin-bottom: 3.2rem;
+  }
+
+  .custom-shape-divider-top-1708511218 svg {
+    height: 90px;
+  }
+}
+
+@media (max-width: 32em) {
+  .contact-form-card {
+    width: 100%;
+  }
+
+  .grid {
+    display: grid;
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .contact-form {
+    padding: 3.2rem 3.2rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.4rem;
+  }
+}
